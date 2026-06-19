@@ -1,0 +1,7 @@
+# Archivos de compilación de Python (Basura)
+**/__pycache__/
+*.pyc
+
+# Carpetas de entorno virtual y configuraciones del IDE
+.venv/
+.idea/
