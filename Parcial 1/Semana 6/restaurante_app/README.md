@@ -1,5 +1,6 @@
 # Restaurante App (POO Python)
-
+William Gynmar Crespo Farias
+POO SEMANA 6 - PARCIAL 1
 Este proyecto es una versión mejorada del sistema `restaurante_app` utilizando Programación Orientada a Objetos en Python, diseñado para la Semana 6 del Parcial 1.
 
 ## Estructura del Proyecto
