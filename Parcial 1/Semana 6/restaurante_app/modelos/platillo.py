@@ -19,3 +19,10 @@ class Platillo(Producto):
         """
         info_base = super().mostrar_informacion()
         return f"[Platillo] {info_base} | Prep: {self.tiempo_preparacion} min"
+
+    def servir(self) -> str:
+        """
+        Implementa el método servir para Platillo (Polimorfismo).
+        """
+        return f"El platillo '{self.nombre}' se está cocinando en cocina. Tiempo de espera: {self.tiempo_preparacion} min. ¡Se servirá caliente!"
+

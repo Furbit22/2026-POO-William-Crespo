@@ -19,3 +19,10 @@ class Bebida(Producto):
         """
         info_base = super().mostrar_informacion()
         return f"[Bebida] {info_base} | Volumen: {self.volumen_ml} ml"
+
+    def servir(self) -> str:
+        """
+        Implementa el método servir para Bebida (Polimorfismo).
+        """
+        return f"La bebida '{self.nombre}' ({self.volumen_ml} ml) se está sirviendo en la barra. ¡Se servirá fría con hielo!"
+

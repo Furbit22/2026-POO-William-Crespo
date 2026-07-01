@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
+from abc import ABC, abstractmethod
 
-class Producto:
+class Producto(ABC):
     """
-    Clase padre que representa un producto genérico del restaurante.
-    Aplica encapsulación al atributo privado __precio.
+    Clase padre abstracta que representa un producto genérico del restaurante.
+    Aplica encapsulación al atributo privado __precio y define métodos abstractos
+    para forzar el polimorfismo en las clases hijas.
     """
     def __init__(self, nombre: str, precio: float, disponible: bool = True):
         # Atributos públicos y protegidos
@@ -40,7 +42,20 @@ class Producto:
         """Modifica la disponibilidad del producto."""
         self._disponible = disponible
 
+    @abstractmethod
     def mostrar_informacion(self) -> str:
-        """Retorna una cadena con la información básica del producto."""
+        """
+        Método abstracto. Retorna una cadena con la información del producto.
+        Debe ser implementado por las clases hijas.
+        """
         estado = "Disponible" if self._disponible else "Agotado"
         return f"Producto: {self.nombre} | Precio: ${self.obtener_precio():.2f} | Estado: {estado}"
+
+    @abstractmethod
+    def servir(self) -> str:
+        """
+        Método abstracto que describe cómo se sirve/prepara el producto.
+        Demuestra un segundo nivel de comportamiento polimórfico.
+        """
+        pass
+

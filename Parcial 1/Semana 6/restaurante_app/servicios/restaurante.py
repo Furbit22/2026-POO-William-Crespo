@@ -36,3 +36,23 @@ class Restaurante:
             print(f"{index}. {producto.mostrar_informacion()}")
             
         print("=" * 60 + "\n")
+
+    def preparar_y_servir_todo(self):
+        """
+        Itera sobre todos los productos y ejecuta el método servir().
+        Esto demuestra polimorfismo dinámico al ejecutar diferentes comportamientos
+        específicos según si el objeto es un Platillo o una Bebida.
+        """
+        print("\n" + "=" * 60)
+        print(f"PREPARACIÓN Y SERVICIO EN: {self.nombre.upper()}")
+        print("=" * 60)
+        
+        if not self.__productos:
+            print("No hay productos para servir.")
+            return
+
+        for index, producto in enumerate(self.__productos, start=1):
+            print(f"{index}. {producto.servir()}")
+            
+        print("=" * 60 + "\n")
+

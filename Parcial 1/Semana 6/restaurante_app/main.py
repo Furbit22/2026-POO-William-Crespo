@@ -38,6 +38,9 @@ def main():
     # 5. Mostrar la información registrada demostrando polimorfismo
     mi_restaurante.mostrar_menu()
     
+    # Demostrar la preparación de productos (segundo nivel de polimorfismo)
+    mi_restaurante.preparar_y_servir_todo()
+    
     # 6. Demostrar encapsulación y validación de precios
     print("--- DEMOSTRACIÓN DE VALIDACIÓN Y ENCAPSULACIÓN ---")
     print(f"Precio actual de {platillo1.nombre}: ${platillo1.obtener_precio():.2f}")
