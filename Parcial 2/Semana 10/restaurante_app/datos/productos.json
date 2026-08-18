@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Hamburguesa Doble con Queso",
+        "categoria": "Comida",
+        "precio": 8.5
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Papas Fritas Medianas",
+        "categoria": "Acompañamientos",
+        "precio": 3.0
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Refresco de Cola 500ml",
+        "categoria": "Bebidas",
+        "precio": 2.0
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Tarta de Tres Leches",
+        "categoria": "Postres",
+        "precio": 4.5
+    }
+]

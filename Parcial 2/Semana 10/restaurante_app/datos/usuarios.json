@@ -1,0 +1,22 @@
+[
+    {
+        "identificacion": "1001",
+        "nombre": "Ana Gómez",
+        "correo": "ana.gomez@correo.com"
+    },
+    {
+        "identificacion": "1002",
+        "nombre": "Carlos Mendoza",
+        "correo": "carlos.mendoza@correo.com"
+    },
+    {
+        "identificacion": "1003",
+        "nombre": "María Rodríguez",
+        "correo": "maria.rodriguez@correo.com"
+    },
+    {
+        "identificacion": "176115512154",
+        "nombre": "William Crespo",
+        "correo": "william.crespo@correo.com"
+    }
+]
