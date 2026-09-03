@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Hamburguesa Doble",
+        "categoria": "Comida",
+        "precio": 7.5,
+        "stock": 15
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Papas Fritas",
+        "categoria": "Acompañamiento",
+        "precio": 3.0,
+        "stock": 30
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Refresco Grande",
+        "categoria": "Bebida",
+        "precio": 2.0,
+        "stock": 25
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Pizza Familiar",
+        "categoria": "Comida",
+        "precio": 12.0,
+        "stock": 8
+    }
+]
