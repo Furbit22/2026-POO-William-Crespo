@@ -1,0 +1,58 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Hamburguesa Clásica",
+        "categoria": "Comida",
+        "precio": 6.5,
+        "stock": 20
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Hamburguesa Doble Especial",
+        "categoria": "Comida",
+        "precio": 8.5,
+        "stock": 15
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Papas Fritas Medianas",
+        "categoria": "Acompañamiento",
+        "precio": 2.5,
+        "stock": 35
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Aros de Cebolla Crujientes",
+        "categoria": "Acompañamiento",
+        "precio": 3.0,
+        "stock": 25
+    },
+    {
+        "codigo": "P005",
+        "nombre": "Refresco Natural 500ml",
+        "categoria": "Bebida",
+        "precio": 1.75,
+        "stock": 40
+    },
+    {
+        "codigo": "P006",
+        "nombre": "Gaseosa Personal 350ml",
+        "categoria": "Bebida",
+        "precio": 1.5,
+        "stock": 50
+    },
+    {
+        "codigo": "P007",
+        "nombre": "Pizza Mediana Pepperoni",
+        "categoria": "Comida",
+        "precio": 10.0,
+        "stock": 12
+    },
+    {
+        "codigo": "P008",
+        "nombre": "Tarta de Chocolate Casera",
+        "categoria": "Postre",
+        "precio": 3.5,
+        "stock": 18
+    }
+]

@@ -5,8 +5,8 @@ Este proyecto corresponde a la entrega de la **Semana 12** de la asignatura **Pr
 ---
 
 ## Estudiante
-* **Nombre Completo:** William Gynmar Crespo Farias
-* **Usuario:** gynmas
+* **Nombre Completo:** William Crespo
+* **Usuario:** Furbit
 * **Asignatura:** Programación Orientada a Objetos (Semestre 2 - UEA)
 * **Tema:** Colecciones Orientadas al Rendimiento y Estructuras Auxiliares en Memoria
 
