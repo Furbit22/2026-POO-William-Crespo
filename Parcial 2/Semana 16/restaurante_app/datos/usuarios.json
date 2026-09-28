@@ -1,0 +1,38 @@
+[
+    {
+        "identificacion": "ADMIN",
+        "nombre": "Administrador del Sistema",
+        "correo": "admin@restaurante.com",
+        "rol": "Administrador"
+    },
+    {
+        "identificacion": "1001",
+        "nombre": "Carlos Mendoza",
+        "correo": "carlos@example.com",
+        "rol": "Cliente"
+    },
+    {
+        "identificacion": "1002",
+        "nombre": "Ana Gómez",
+        "correo": "ana@example.com",
+        "rol": "Empleado"
+    },
+    {
+        "identificacion": "1003",
+        "nombre": "Luis Ramírez",
+        "correo": "luis@example.com",
+        "rol": "Cliente"
+    },
+    {
+        "identificacion": "1004",
+        "nombre": "María Morales",
+        "correo": "maria@example.com",
+        "rol": "Empleado"
+    },
+    {
+        "identificacion": "1005",
+        "nombre": "William Crespo",
+        "correo": "william@uea.edu.ec",
+        "rol": "Administrador"
+    }
+]
